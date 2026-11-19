@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/anjan/OneDrive/Desktop/kimore_datset/mlruns/2/models/m-2a8a136754b14d839bf72bc4f1db521b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.18.0
+model_id: m-2a8a136754b14d839bf72bc4f1db521b
+model_size_bytes: 25431
+model_uuid: m-2a8a136754b14d839bf72bc4f1db521b
+prompts: null
+run_id: f4558f47b98f451a8b53819b3f36c7ab
+utc_time_created: '2026-11-15 17:48:20.485694'

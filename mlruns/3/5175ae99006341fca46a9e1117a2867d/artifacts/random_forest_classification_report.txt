@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+    BackPain       0.00      0.00      0.00        10
+      Expert       0.48      0.75      0.59        20
+   NotExpert       0.68      0.83      0.75        30
+   Parkinson       0.64      0.56      0.60        16
+      Stroke       0.33      0.10      0.15        10
+
+    accuracy                           0.58        86
+   macro avg       0.43      0.45      0.42        86
+weighted avg       0.51      0.58      0.53        86

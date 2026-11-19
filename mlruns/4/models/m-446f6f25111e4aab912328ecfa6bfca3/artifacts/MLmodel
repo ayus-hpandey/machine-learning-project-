@@ -1,0 +1,22 @@
+artifact_path: file:///D:/fifth semester/machine learning/kimore_datset/mlruns/4/models/m-446f6f25111e4aab912328ecfa6bfca3/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.10.11
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.17.1
+model_id: m-446f6f25111e4aab912328ecfa6bfca3
+model_size_bytes: 609338
+model_uuid: m-446f6f25111e4aab912328ecfa6bfca3
+prompts: null
+run_id: 244ef43fa8654d76b1a625211257d770
+utc_time_created: '2026-11-17 04:25:32.804673'

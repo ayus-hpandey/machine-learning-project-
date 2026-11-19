@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/anjan/OneDrive/Desktop/kimore_datset/mlruns/6/models/m-ada561817b6d4e1c904b5fff1e45a146/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.10
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.18.0
+model_id: m-ada561817b6d4e1c904b5fff1e45a146
+model_size_bytes: 606485
+model_uuid: m-ada561817b6d4e1c904b5fff1e45a146
+prompts: null
+run_id: c9415164e7b543e880d8285a869a251a
+utc_time_created: '2026-11-15 19:23:47.318741'

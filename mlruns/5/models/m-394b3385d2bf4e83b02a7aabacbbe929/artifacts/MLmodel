@@ -1,0 +1,23 @@
+artifact_path: file:///D:/fifth semester/machine learning/kimore_datset/mlruns/5/models/m-394b3385d2bf4e83b02a7aabacbbe929/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.17.1
+model_id: m-394b3385d2bf4e83b02a7aabacbbe929
+model_size_bytes: 25419
+model_uuid: m-394b3385d2bf4e83b02a7aabacbbe929
+prompts: null
+run_id: 368b8545f7414a3abdcf3dc9c3bd4241
+utc_time_created: '2026-11-17 04:38:01.376957'
